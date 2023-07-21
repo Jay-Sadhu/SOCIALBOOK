@@ -1,0 +1,209 @@
+/* Add CSS styles with dark theme for futuristic and professional effect */
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #d0ceceac;
+}
+
+.login-container {
+  margin-top: -60px;
+  width: 425px;
+  padding: 30px;
+  background-color: #e7e2e2;
+  /* border-radius: 15px; */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.636);
+  height: 460px;
+}
+
+.signup-container {
+  width: 445px;
+  padding: 15px;
+  padding-bottom: 130px;
+  background-color: #e7e2e2;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.636);
+  height: 570px;
+}
+
+.reset-container {
+  margin-top: -60px;
+  width: 425px;
+  padding: 30px;
+  background-color: #e7e2e2;
+  /* border-radius: 15px; */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.636);
+  height: 360;
+}
+
+.form-heading {
+  background-color: #000000;
+  text-align: center;
+  font-size: 28px;
+  margin-top: -30px;
+  margin-bottom: 45px;
+  color: white;
+  /* font-family: "Orbitron", sans-serif; */
+  padding: 20px;
+  width:116.5%;
+  margin-left:-8.2%;
+}
+
+.signup-heading {
+  background-color: #000000;
+  text-align: center;
+  font-size: 28px;
+  margin-top: -15px;
+  margin-bottom: 25px;
+  color: white;
+  /* font-family: "Orbitron", sans-serif; */
+  padding: 20px;
+  width:107.25%;
+  margin-left:-3.65%;
+}
+
+.reset-heading {
+  background-color: #000000;
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 25px;
+  color: white;
+  /* font-family: "Orbitron", sans-serif; */
+  padding: 20px;
+  width:116.5%;
+  margin-left:-8.2%;
+}
+
+.newpassword_heading {
+  background-color: #000000;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -30px;
+  margin-bottom: 45px;
+  color: white;
+  /* font-family: "Orbitron", sans-serif; */
+  padding: 15px;
+  width:116.5%;
+  margin-left:-8.2%;
+}
+
+.newpassword_side{
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
+.login-form {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.form-input {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.reset-inp {
+  width: 100%;
+  margin-bottom:20px;
+}
+
+label {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+
+input {
+  padding: 12px;
+  font-size: 14px;
+  background-color: #ffffff96;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  outline: none;
+  /* width: 100%; */
+}
+
+input[type="password"] {
+  /* Use this selector to apply the width to only the password input */
+  width: 80%;
+  padding: 12px;
+  font-size: 14px;
+  background-color: #ffffff94;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  outline: none;
+}
+
+
+
+input:active{
+  border: 2px solid #ffffff;
+}
+
+.password-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+}
+
+.showpass {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+  background-color: #141414;
+  color: #e1e1e1;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 14px;
+}
+
+.showpass:hover{
+  background-color: white;
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 10px;
+}
+
+.btn-login {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  color: #d8d8d8;
+  background-color: #000000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #276bfc;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 10px;
+  color: #000000;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+a.navlink{
+  color:black;
+  text-decoration: none;
+}
+
+a.navlink:hover{
+  color:black;
+  text-decoration: underline;
+}
+
+/* Futuristic cyber font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
